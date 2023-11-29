@@ -1,6 +1,5 @@
 package praktikum;
 
-
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -9,7 +8,6 @@ public class IngredientTest {
     Bun bun = new Bun("black bun", 100);
     Ingredient ingredientFilling = new Ingredient(IngredientType.FILLING, "cutlet", 100);
     Ingredient ingredientSauce = new Ingredient(IngredientType.SAUCE, "chili sauce", 300);
-
 
     @Test
     public void getNameTest() {
